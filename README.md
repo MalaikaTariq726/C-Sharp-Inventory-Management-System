@@ -18,3 +18,5 @@ Uncomment the createDirectory function in Form1.cs class constructor Change the 
 Execution:
 
 Execute the project after completing the above steps. Images will be retrieved from the specified directory and stored in the Oracle Database. Note: Always exercise caution when working with sensitive privileges, and ensure that you have the necessary permissions on the operating system to create directories and access files.
+
+![image](https://github.com/user-attachments/assets/c34560f7-6b90-4fa2-b250-1ff57bd60777)
