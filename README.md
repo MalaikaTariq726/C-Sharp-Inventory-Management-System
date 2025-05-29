@@ -9,11 +9,17 @@ Follow the steps below to set up and configure the project:
 Grant Necessary Privileges:
 
 If encountering any privileges issues, open the command prompt and connect to the database as the system administrator using the following commands:
---->sqlplus sys as sysdba
+```bash
+sqlplus sys as sysdba
+```
 Enter your password and execute the command: 
---->GRANT ALL PRIVILEGES TO DBFINAL; 
-Replace dbfinal with your oracle username.
-Uncomment the createDirectory function in Form1.cs class constructor Change the connection string with your connection string of oracle in program.cs,Admin.cs and CustomerPage.cs file with your oracle connection string. Open the sendPassword function in the Admin.cs file and the sendotp function in the SignUp.cs file. Replace the network credentials with your specific credentials. Address Image Path Issues:
+```bash
+GRANT ALL PRIVILEGES TO DBFINAL;
+```
+**Replace dbfinal with your oracle username.**
+
+
+Uncomment the createDirectory function in Form1.cs class in constructor Change the connection string with your connection string of oracle in program.cs,Admin.cs and CustomerPage.cs file with your oracle connection string. Open the sendPassword function in the Admin.cs file and the sendotp function in the SignUp.cs file. Replace the network credentials with your specific credentials. Address Image Path Issues:
 
 Execution:
 
